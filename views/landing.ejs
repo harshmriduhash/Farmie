@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Hrituja">
+    <meta name="keywords" content="farmie,farm,farming,farms">
+    <title>FARMIE | Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+
+  <body>
+
+    <section id="welcome">
+      <nav class="mnav">
+        <div class="container">
+            <img class="logo" src="/img/logo.jpg" alt="farmie-logo">
+            <ul>
+              <li><a href="/login">Login</a></li>
+              <li><a href="/register">SignUp</a></li>
+              <li><a href="/logout">Logout</a></li>
+              <li><a href="/shop">Shop</a></li>
+            </ul>
+        </div>
+      </nav>
+
+        <div class="container">
+          <a href="#footer" class="rounded bottom-left"><i class="fa fa-phone"></i></a>
+          <a href="#feedback" class="rounded bottom-right"><i class="fa fa-question"></i></a>
+          <div class="row">
+            <div class="col-md-8 col-sm-12">
+              <h1>Welcome to <span class="farmie">Farmie!</span></h1>
+            </div>
+            <div class="col-md-4 col-sm-12 option">
+              <ul>
+                <li><a href="#" class="button visible">CHAT <i class="fa fa-comments"></i></a></li>
+                <li><a href="#" class="button visible">INVENTORY <i class="fa fa-briefcase"></i></a></li>
+                <li><a href="/readings" class="button">READINGS <i class="fa fa-book"></i></a></li>
+                <li><a href="#feedback" class="button">FEEDBACK <i class="fa fa-pencil"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+      <div class="container">
+        <div class="help">
+          <h2>HELP & FEEDBACK</h2>
+        </div>
+        <div class="row">
+          <div class="fform yellow col-md-5 col-sm-12">
+            <div class="formhelp">
+              <h3>HELP</h3>
+            </div>
+            <hr>
+            <form action="/help" method="post">
+                <input class="input" name="contact" type="number" placeholder="Contact.." required>
+                <input class="input" name="question" type="text" placeholder="Question.." required>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-2 col-sm-12"></div>
+          <div class="fform dg col-md-5 col-sm-12">
+            <div class="formfeedback">
+              <h3>FEEDBACK</h3>
+            </div>
+            <hr>
+            <form action="/feedback" method="post">
+                <input class="input" name="uname" type="text" placeholder="User Name.." required>
+                <input class="input" name="message" type="text" placeholder="Message.." required>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <h4>&copy; Copyright <span class="farm">Farmie</span> 2019</h4>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h4><i class="fa fa-phone"></i> : +91-8258926316</h4>
+          </div>
+          <div class="foot col-md-4 col-sm-12">
+            <ul>
+              <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </div>          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

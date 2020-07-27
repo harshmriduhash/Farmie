@@ -1,0 +1,233 @@
+*{
+  font-family: 'Muli', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.mnav{
+  background-color: transparent;
+  height:15vh;
+  color: black;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 3px 3px black;
+}
+
+.mnav ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 3vh;
+}
+
+.mnav a{
+  color: black;
+}
+
+.mnav a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.mnav li{
+    display: inline-block;
+    margin-right: 15px;
+    font-size:20px;
+}
+
+.logo{
+  float: left;
+  height: 15vh;
+}
+
+#welcome{
+  background: url("../img/bg.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+#welcome h1{
+  font-size: 70px;
+  margin-top: 30vh;
+}
+
+
+.rounded{
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background-color: lightyellow;
+  padding: 10px;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.bottom-left{
+  bottom: 5%;
+  left: 2%;
+}
+
+.bottom-right{
+  bottom: 5%;
+  left: 7%;
+}
+
+
+.farmie{
+  color: darkgreen;
+}
+
+.option{
+  font-size: 40px;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+.option ul{
+  list-style-type: none;
+}
+
+.option a{
+  color: lightyellow;
+  font-weight: bold;
+}
+
+.option a.visible{
+  color:black;
+  font-weight: bold;
+}
+
+.option a:hover{
+  color: lightyellow;
+  text-decoration: none;
+}
+
+.option a.visible:hover{
+  color:black;
+  font-weight: bold;
+}
+
+.option li{
+    display: block;
+    margin-bottom:12vh;
+    font-size:20px;
+}
+
+.button{
+  border: 1px solid black;
+  box-shadow: 0 0 2px 2px black;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.button:hover{
+  box-shadow: none;
+  border: 2px solid black;
+}
+
+#feedback{
+  height: 85vh;
+}
+
+.help{
+  margin-bottom: 5vh;
+}
+
+.help h2{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.fform{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 50px 30px 150px 30px;
+}
+
+.yellow{
+  background-color: lightyellow;
+}
+
+.dg{
+  background-color: darkgreen;
+}
+
+.formfeedback{
+  color: lightyellow;
+}
+
+.input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.submit{
+  border: 1px solid black;
+  box-shadow: 0 0 2px 2px black;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.submit:hover{
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+
+
+#footer{
+  background-color: black;
+  color: white;
+  height: 15vh;
+}
+
+#footer .farm{
+  color: lightyellow;
+}
+
+.foot ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 1vh;
+}
+
+.foot li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size:30px;
+}
+
+.foot a{
+      color:white;
+}
+
+.login{
+  margin: 10vh auto;
+  padding: 100px 50px;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px black;
+  width:70%;
+}
+
+.imag{
+  max-height: 25vh;
+  max-width: 40vh;
+}
+
+.styl{
+  padding: 10px;
+}
+
+.box{
+  box-shadow:  0 0 2px 2px lightyellow;
+}
+
+.kit{
+  font-weight: bold;
+}
